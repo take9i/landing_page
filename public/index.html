@@ -2,6 +2,14 @@
 <html lang="en">
 
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129806949-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-129806949-1');
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -76,9 +84,10 @@
             <p>"Landscapes" は、3D Webコンテンツ作成プラットフォームです。<br>
               各種情報を背景図の上に配置して、3D Webコンテンツを作成することができます。</p>
             <p>詳細地形と建物が影付きで表示されます。独自の建物の重畳も可能です。<br>
-              景観シミュレーションなどにご活用下さい。</p>
-            <p>移動物の表現や注記の表示が可能です。観光案内やルートガイドなどにもご活用下さい。</p>
+              景観シミュレーションなどにご利用下さい。</p>
               <img src="./img/eno_fuji.png" width="256">
+              <img src="./img/mejiroyama.png" width="256">
+            <p>移動物の表現や注記の表示が可能です。観光案内などにもご利用下さい。</p>
               <img src="./img/eno_den.png" width="256">
             <p>画面の表示には<a href="https://cesiumjs.org">Cesium</a>を使用しています。カスタマイズも自由自在です。</p>
             <p>背景図の作成には<a href="http://www.gsi.go.jp/kiban/">基盤地図情報</a>と<a href="https://www.openstreetmap.org/">OpenStreetMap</a>を使用しています。</p>
@@ -92,8 +101,8 @@
       <div class="container">
         <div class="col-lg-8 mx-auto">
           <h2>Try Landscapes</h2>
-          <p>Landscapeのデモページは近日公開予定です。</p>
-          <a href="https://enoplay-64dde.firebaseapp.com/" class="btn btn-default btn-lg disabled" tabindex="-1">Visit Demo Page</a>
+          <p>Landscapeのデモページはこちらです。</p>
+          <a href="./viewer/demo.html" class="btn btn-default btn-lg" tabindex="-1">Visit Demo Page</a>
         </div>
       </div>
     </section>
@@ -104,16 +113,16 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Contact Landscapes</h2>
-            <p>開発中のため、リリース時期・提供方法は決定しておりません。<br>
-              詳細が決まりましたら、このページでお知らせ致します。<br>
+            <p>現在開発中のため、提供時期・提供範囲などは決定しておりません。<br>
+              詳細が決まりましたら、このページでお知らせします。<br>
               ご質問がございましたら、お気軽にお問い合わせください。
             <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
+              <!-- <li class="list-inline-item">
                 <a href="https://twitter.com/RdSkcj" class="btn btn-default btn-lg">
                   <i class="fa fa-twitter fa-fw"></i>
                   <span class="network-name">Twitter</span>
                 </a>
-              </li>
+              </li> -->
               <li class="list-inline-item">
                 <a href="http://skcompany.tokyo" class="btn btn-default btn-lg">
                   <span class="network-name">Company Website</span>
