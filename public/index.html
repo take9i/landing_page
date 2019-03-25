@@ -1,159 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129806949-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-      gtag('config', 'UA-129806949-1');
-    </script>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Landscapes - 3D Webコンテンツ作成プラットフォーム</title>
+  <title>Landscapes - 3D景観コンテンツ作成プラットフォーム</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <!-- <link href="css/grayscale.min.css" rel="stylesheet"> -->
-    <link href="css/grayscale.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <!-- <link href="css/grayscale.min.css" rel="stylesheet"> -->
+  <link href="css/grayscale.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body id="page-top">
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Landscapes</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Try Demo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Landscapes</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">Landscapes</h1>
+        <h5 class="text-white mx-auto mt-2 mb-5">見て楽しい、3D景観コンテンツ作成プラットフォーム</h5>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">
+          詳細を見る
+          <i class="fa fa-angle-double-down animated"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center bg-black">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">About Landscapes</h2>
+          <p class="text-white-50">"Landscapes" は、3D景観コンテンツ作成プラットフォームです。<br>
+             詳細地形＋3D建物の背景図に各種情報を重畳して、独自の3D景観コンテンツを作成することができます。</p>
+        </div>
+
+        <div class="col-lg-6 mx-auto">
+            <a href="./viewer/demo.html"><img src="./img/vps@en.png" width="384" alt="Vista Points@江の島"></a>
+            <p class="text-white-50"><a href="./viewer/demo.html">Vista Points@江の島</a><br>（郊外の観光地での使用例）</p>
+          </div>
+          <div class="col-lg-6 mx-auto">
+            <a href="https://tokyo-station-3d-viewer.firebaseapp.com/"><img src="./img/ts3v.png" width="384" alt="Tokyo Station 3D Viewer"></a>
+            <p class="text-white-50"><a href="https://tokyo-station-3d-viewer.firebaseapp.com/">Tokyo Station 3D Viewer</a><br>（都市部での使用例）</p>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-white-50">画面の表示には<a href="https://cesiumjs.org">Cesium</a>を使用しています。カスタマイズも自由自在です。<br>
+            背景図の作成には<a href="http://www.gsi.go.jp/kiban/">基盤地図情報</a>と<a href="https://www.openstreetmap.org/">OpenStreetMap</a>を使用しています。</p>
+          </div>
+
+      </div>
+      <!-- <img src="img/ipad.png" class="img-fluid" alt=""> -->
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="projects-section bg-black">
+    <div class="container">
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+          <h2 class="text-white mb-4">Services</h2>
         </div>
       </div>
-    </nav>
 
-    <!-- Intro Header -->
-    <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="brand-heading">Landscapes</h2>
-              <p class="intro-text">見て楽しい、3D Webコンテンツ作成プラットフォーム</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
-              </a>
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/eno_fuji.png" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">データ配信サービス</h4>
+                <p class="mb-0 text-white-50">背景図データの配信サービスです。お好きな景観コンテンツを自由に作成することが可能です。<br>
+                    提供開始時期：2019年夏頃（β版）<br>
+                    提供エリア：東京・神奈川（順次拡大）<br>
+                    <small>※β版期間は無償提供予定</small>
+                </p>
+                <!-- <hr class="d-none d-lg-block mb-0 ml-0"> -->
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
 
-    <!-- About Section -->
-    <section id="about" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>About Landscapes</h2>
-            <p>"Landscapes" は、3D Webコンテンツ作成プラットフォームです。<br>
-              各種情報を背景図の上に配置して、3D Webコンテンツを作成することができます。</p>
-            <p>詳細地形と建物が影付きで表示されます。独自の建物の重畳も可能です。<br>
-              景観シミュレーションなどにご利用下さい。</p>
-              <img src="./img/eno_fuji.png" width="256">
-              <img src="./img/mejiroyama.png" width="256">
-            <p>移動物の表現や注記の表示が可能です。観光案内などにもご利用下さい。</p>
-              <img src="./img/eno_den.png" width="256">
-            <p>画面の表示には<a href="https://cesiumjs.org">Cesium</a>を使用しています。カスタマイズも自由自在です。</p>
-            <p>背景図の作成には<a href="http://www.gsi.go.jp/kiban/">基盤地図情報</a>と<a href="https://www.openstreetmap.org/">OpenStreetMap</a>を使用しています。</p>
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/eno_den.png" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">コンテンツ作成サービス</h4>
+                <p class="mb-0 text-white-50">ご希望の景観コンテンツをご依頼頂き、<a href="https://www.skcompany.tokyo/">当社</a>が作成するサービスです。<br>
+                  動作PFの変更や機能の追加なども対応可能です。
+                <!-- <hr class="d-none d-lg-block mb-0 mr-0"> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- Download Section -->
-    <section id="download" class="download-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h2>Try Landscapes</h2>
-          <p>Landscapeのデモページはこちらです。</p>
-          <a href="./viewer/demo.html" class="btn btn-default btn-lg" tabindex="-1">Visit Demo Page</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section bg-black">
+    <div class="container">
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+          <h2 class="text-white mb-4">Contact</h2>
+          <p class="mb-0 text-white-50">ご質問がございましたら、お気軽に<a href="https://www.skcompany.tokyo/#contact">お問い合わせ</a>ください。</p>
         </div>
       </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact Landscapes</h2>
-            <p>現在開発中のため、提供時期・提供範囲などは決定しておりません。<br>
-              詳細が決まりましたら、このページでお知らせします。<br>
-              ご質問がございましたら、お気軽にお問い合わせください。
-            <ul class="list-inline banner-social-buttons">
-              <!-- <li class="list-inline-item">
-                <a href="https://twitter.com/RdSkcj" class="btn btn-default btn-lg">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li> -->
-              <li class="list-inline-item">
-                <a href="http://skcompany.tokyo" class="btn btn-default btn-lg">
-                  <span class="network-name">Company Website</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <div class="social d-flex justify-content-center">
+        <a href="mailto:info@skcompany.tokyo" class="mx-2">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://twitter.com/RdSkcj" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="mx-2 disabled">
+          <i class="fab fa-github"></i>
+        </a>
       </div>
-    </section>
 
-    <!-- Map Section -->
-    <!-- <div id="map"></div> -->
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; SKcompany 2018</p>
-      </div>
-    </footer>
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      <a href="https://www.skcompany.tokyo/">&copy; SKcompany 2018</a>
+    </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </footer>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  </body>
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
 
 </html>
